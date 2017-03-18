@@ -1,9 +1,9 @@
 # of-hashtags-and-congress
 Data and code for my thesis, submitted to the University of Michigan
 in partial fulfillment of the requirements for the degree of
-HONORS BACHELOR OF ARTS, Department of Political Science
+HONORS BACHELOR OF ARTS, Department of Political Science.
 
-Regarding what hashtag use by members of Congress might represent,
+I examine what hashtag use by members of Congress might represent,
 what predictive qualities hashtag use might have as an indicator
 of political priorities and thus voting behavior, how hashtag usage
 varies between parties, and how hashtags have become part of a
