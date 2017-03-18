@@ -12,18 +12,10 @@ consumer_secret = "LAM67XkZEnmNtwxQcAcKLH7P1HWUYyPfWX3wbUjwBtfQqC9EzX"
 access_key = "1938504912-8mBGuypIUxzakzY7w4fcLsZmmDm68caFInINZFc"
 access_secret = "DFTWLnTvxMqbQDv9JIb9eTkqUGF9B3a44F6Ncmdy6fJLZ"
 
-#Twitter API credentials / Erica 2
-# consumer_key = "NhxSHmGbW1Hbcqace3h0S0tWM"
-# consumer_secret = "GkXPNfTgIY5IU8PYhkDTubSqRwH5YgoYqvpac3atgznHFYHYfL"
-# access_key = "715399591244341249-4DPQAZGe6fQPhEfF3W8KYhsNEMpHdd3"
-# access_secret = "HmEXhPJgzRvTyTUgSgVXrkSEujEsDOxMu5dlIO5bvInRq"
-
-with open('repbobbyscott.csv', 'rU') as f:
+# list of twitter handles
+with open('congress_114_twitter.csv', 'rU') as f:
 	reader = csv.reader(f)
 	usernames_list = list(reader)
-
-print (usernames_list)
-
 
 # prevent program from failing if there are no urls in the text of the tweet
 # needed because if no urls in tweet text, API returns empty list for entities['urls']
