@@ -45,7 +45,7 @@ for moc1 in moc_list:
 		count = count + 1
 ### /////////////////////////////////////////////
 
-### compare votes for all pairs (duplicates will be dealt with later in R!!!! ha)
+### compare votes for all pairs (duplicates will be dealt with later in R)
 for x, pair in enumerate(table):
 	shared_votes = 0
 	possible_shared_votes = 0
@@ -68,6 +68,7 @@ for x, pair in enumerate(table):
 	table[x][2] = shared_votes
 	table[x][3] = possible_shared_votes
 
+	# trying to catch errors
 	if shared_votes > possible_shared_votes:
 		print ("flag!")
 		print (moc1)
