@@ -1,5 +1,8 @@
 # Erica Liao
-# Iterate through all tweets + create csv of hashtags w/ their frequencies
+# Iterate through all tweets and find:
+# (1) how many times each MOC tweeted
+# (2) the date of their most recent tweet in the sample
+# (3) the date of their earliest tweet in the sample
 
 import csv
 import re
