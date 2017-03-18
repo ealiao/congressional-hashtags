@@ -43,7 +43,7 @@ for moc1 in moc_list:
 		count = count + 1
 ### /////////////////////////////////////////////
 
-### compare comms for all pairs (duplicates will be dealt with later in R!!!! ha)
+### compare comms for all pairs (duplicates will be dealt with later in R)
 for x, pair in enumerate(table):
 	shared_comms = 0
 
