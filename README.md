@@ -15,3 +15,7 @@ and voting behavior. Additionally, strategy varies between parties –
 while similar hashtag usage is a meaningful predictor of similar
 congressional voting patterns for Democrats, this is not true for
 Republicans. 
+
+Data mostly collected from Twitter & the Sunlight Foundation.
+Caucus information was hand coded from caucus websites and Pew
+Research.
